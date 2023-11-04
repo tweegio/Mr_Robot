@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,900;1,900&family=Lugrasimo&family=Montserrat:ital,wght@1,300;1,500&family=Roboto:ital,wght@0,400;0,700;1,100;1,700&family=Tektur:wght@400;500;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  font-family: "Lugrasimo", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tektur", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: rgb(108, 206, 238);
+}
+
+.header {
+  background-color: rgba(168, 219, 231, 0.977);
+  display: flex;
+
+  height: 100px;
+  padding: 5px 10%;
+}
+
+
+.logo{
+  
+  width: 1px;
+  height: 3px;
+  margin-left: 900px;
+}
+
+
+/*eliminación de subrayado de texto*/
+.header .nav-links {
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  
+  padding: 0 20px;
+
+}
+
+/* efecto en opciones de menú*/
+.header .nav-links li:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.header a {
+  font-size: 25px;
+  color: rgb(231, 72, 88);
+  text-decoration: none;
+}
+
+/*boton referente a contacto en el menú*/
+.header .btn button {
+  font-size: 25px;
+  color: rgb(231, 72, 88);
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: rgb(16, 15, 15)
+}
+
+h2 {
+  margin-left: 550px;
+  font-size: 25px;
+}
+
+p {
+  line-height: 2;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.img_01_home {
+  margin-left: 60px;
+}
+
+.img_01_home_vis {
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+.director {
+  margin-left: 40px;
+}
+.elliot_caminando {
+  margin-left: 400px;
+}
+
+.elenco {
+  margin-left: 40px;
+}
+
+.actores {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#video{
+
+  float: left;
+  margin-left:30px;
+}
+
+#img_relleno_1 {
+  width: 600px;
+  height: 360px;
+  background-image: url(../img/relleno_1.jpg);
+  float: right;
+  margin-right: 40px;
+  
+
+}
+
+#img_relleno_2 {
+  width: 600px;
+  height: 360px;
+  background-image: url(../img/relleno_2.jfif);
+  float: right;
+  margin-right: 40px;
+
+}
+
+
+#img_relleno_3 {
+  width: 600px;
+  height: 360px;
+  background-image: url(../img/relleno_3.webp);
+  float: right;
+  margin-right: 40px;
+}
+
+.pie_d_pag_1{
+  color: rgb(0, 10, 194);
+  box-sizing: none;
+  margin-top: 10px;
+  margin-left: 1000px;
+}
+
+.pie_d_pag {
+  color: rgb(0, 10, 194);
+  box-sizing: none;
+  margin-top: 10px;
+  margin-left: 1100px;
+  
+}
